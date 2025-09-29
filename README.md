@@ -41,7 +41,7 @@
 
 2. 모델 환경설정
     - PX4-Autopilot / .github / workflows / sitl_tests.yml
-        -iris 복붙
+        - iris 복붙
 
     - PX4-Autopilot / Tools / simulation / gazebo-classic /sitl_gazebo-classic / .github / workflows / firmware_build_test.yml
         - model: 줄에 [자신 모델 이름] 작성
