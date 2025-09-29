@@ -16,7 +16,8 @@
             - sdf.jinja
             - config
                 - 예시
-                    :   <?xml version="1.0"?>
+                    
+                        <?xml version="1.0"?>
                         <model>
                         <name>3DR s2000</name>
                         <version>1.0</version>
@@ -34,7 +35,7 @@
                         Thomas Gubler and is maintained by Lorenz Meier.
                         </description>
                         </model>
-
+                        
     - PX4-Autopilot / Tools / simulation / gazebo-classic / .gitignore
         - models/[모델 파일 이름]/[모델 이름.sdf]
 
@@ -49,7 +50,8 @@
         -  SUPPORTED_MODELS=([자신 모델 이름]) 작성
 
     - PX4-Autopilot / launch / [자신 모델].launch (필수 아님)
-        - 예시 
+        - 예시
+          
                 <arg name="x" default="0"/>
                 <arg name="y" default="0"/>
                 <arg name="z" default="0"/>
